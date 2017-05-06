@@ -1,5 +1,11 @@
 import { NestFactory } from 'nest.js';
 import { ApplicationModule } from './modules/app.module';
 
+import "reflect-metadata";
+
+const port = 3001;
 const app = NestFactory.create(ApplicationModule);
-app.listen(3000, () => console.log('Application is listening on port 3000.'));
+
+app.listen(port, () => {
+    console.log('Application listen on port:', port);
+}); 
