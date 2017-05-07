@@ -7,9 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "nest.js": "1.0.3",
-    "typescript": "^2.2.1",
-    "reflect-metadata": "0.1.9"
+    "nest.js": "1.0.5",
+    "typescript": "^2.2.1"
   },
   "devDependencies": {
     "@types/node": "^7.0.5",
